@@ -6,6 +6,7 @@ tags:
 ---
 # ✰全新安装或升级3x-ui版本流程步骤✰
 ## 项目地址：https://github.com/xeefei/3x-ui
+## 【3x-ui】中文交流群：https://t.me/XUI_CN
 ### 一、购买了VPS之后，进行必要的系统升级/更新，建议使用debian，
 ##### 1、如果是debian系统，可以使用以下命令更新：
     apt update
