@@ -30,7 +30,7 @@ tags:
 ##### 2、如果执行了上面的代码但是报错，证明你的系统里面没有curl这个软件，请执行以下命令先安装curl软件，安装curl之后再去执行上面代码，
     apt update -y&&apt install -y curl&&apt install -y socat
 ##### 3、若要对版本进行升级，可直接通过脚本选择【2】----->【更新面板】，
-![8](./media/8.png)
+
 ##### PS：若要安装指定的版本，请将该版本添加到安装命令的末尾。 e.g., ver v2.3.1:
     bash <(curl -Ls https://raw.githubusercontent.com/xeefei/3x-ui/master/install.sh) v2.3.1
 
