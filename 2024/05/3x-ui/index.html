@@ -14,7 +14,7 @@
 <meta property="og:description" content="✰全新安装或升级3x-ui版本流程步骤✰项目地址：https:&#x2F;&#x2F;github.com&#x2F;xeefei&#x2F;3x-ui【3X-UI】中文交流群：https:&#x2F;&#x2F;t.me&#x2F;XUI_CN   ✰〔3X-UI优化版〕跟原版3X-UI的区别？✰大部分功能基于原版3X-UI进行汉化优化，主要的优化内容如下：1、最大限度地汉化了面板项目，更适合中文宝宝体质，包括：①优化在VPS中进行〔脚本安装过程〕的汉化提示，增加">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-05-12T21:56:27.000Z">
-<meta property="article:modified_time" content="2024-06-14T10:52:48.993Z">
+<meta property="article:modified_time" content="2024-06-22T04:08:47.758Z">
 <meta property="article:author" content="心隨緣動">
 <meta property="article:tag" content="3x-ui">
 <meta name="twitter:card" content="summary">
@@ -104,7 +104,7 @@
 <hr>
 <h2 id="✰如何从其他x-ui版本迁移到〔3X-UI优化版〕？✰"><a href="#✰如何从其他x-ui版本迁移到〔3X-UI优化版〕？✰" class="headerlink" title="✰如何从其他x-ui版本迁移到〔3X-UI优化版〕？✰"></a>✰如何从其他x-ui版本迁移到〔3X-UI优化版〕？✰</h2><h3 id="1、若你用的是伊朗老哥的原版3X-UI，是可以直接〔覆盖安装〕的，因为〔3X-UI优化版〕是fork了原版3X-UI的项目，基于原有的功能进行优化的，大功能是没有变化的，主要是进行了脚本的〔汉化处理〕，其他诸如数据库文件等位置是没有改变的，所以直接覆盖安装，并不会影响你〔原有节点及配置〕等数据；安装命令如下："><a href="#1、若你用的是伊朗老哥的原版3X-UI，是可以直接〔覆盖安装〕的，因为〔3X-UI优化版〕是fork了原版3X-UI的项目，基于原有的功能进行优化的，大功能是没有变化的，主要是进行了脚本的〔汉化处理〕，其他诸如数据库文件等位置是没有改变的，所以直接覆盖安装，并不会影响你〔原有节点及配置〕等数据；安装命令如下：" class="headerlink" title="1、若你用的是伊朗老哥的原版3X-UI，是可以直接〔覆盖安装〕的，因为〔3X-UI优化版〕是fork了原版3X-UI的项目，基于原有的功能进行优化的，大功能是没有变化的，主要是进行了脚本的〔汉化处理〕，其他诸如数据库文件等位置是没有改变的，所以直接覆盖安装，并不会影响你〔原有节点及配置〕等数据；安装命令如下："></a>1、若你用的是伊朗老哥的原版3X-UI，是可以直接〔覆盖安装〕的，因为〔3X-UI优化版〕是fork了原版3X-UI的项目，基于原有的功能进行优化的，大功能是没有变化的，主要是进行了脚本的〔汉化处理〕，其他诸如数据库文件等位置是没有改变的，所以直接覆盖安装，并不会影响你〔原有节点及配置〕等数据；安装命令如下：</h3><pre><code>bash &lt;(curl -Ls https://raw.githubusercontent.com/xeefei/3x-ui/master/install.sh)
 </code></pre>
-<h3 id="2、若你用的是之前F佬的x-ui或者其他分支版本，那直接覆盖安装的话，并不能确保一定就能够兼容？建议你先去备份〔数据库〕配置文件，再进行安装〔3X-UI优化版〕。"><a href="#2、若你用的是之前F佬的x-ui或者其他分支版本，那直接覆盖安装的话，并不能确保一定就能够兼容？建议你先去备份〔数据库〕配置文件，再进行安装〔3X-UI优化版〕。" class="headerlink" title="2、若你用的是之前F佬的x-ui或者其他分支版本，那直接覆盖安装的话，并不能确保一定就能够兼容？建议你先去备份〔数据库〕配置文件，再进行安装〔3X-UI优化版〕。"></a>2、若你用的是之前F佬的x-ui或者其他分支版本，那直接覆盖安装的话，并不能确保一定就能够兼容？建议你先去备份〔数据库〕配置文件，再进行安装〔3X-UI优化版〕。</h3><hr>
+<h3 id="2、若你之前用的是Docker方式安装，那先进入容器里面-命令：docker-exec-it-容器id-bin-sh，再执行以上脚本命令直接【覆盖安装】即可，"><a href="#2、若你之前用的是Docker方式安装，那先进入容器里面-命令：docker-exec-it-容器id-bin-sh，再执行以上脚本命令直接【覆盖安装】即可，" class="headerlink" title="2、若你之前用的是Docker方式安装，那先进入容器里面/命令：docker exec -it 容器id /bin/sh，再执行以上脚本命令直接【覆盖安装】即可，"></a>2、若你之前用的是Docker方式安装，那先进入容器里面/命令：docker exec -it 容器id /bin/sh，再执行以上脚本命令直接【覆盖安装】即可，</h3><h3 id="3、若你用的是之前F佬的x-ui或者其他分支版本，那直接覆盖安装的话，并不能确保一定就能够兼容？建议你先去备份〔数据库〕配置文件，再进行安装〔3X-UI优化版〕。"><a href="#3、若你用的是之前F佬的x-ui或者其他分支版本，那直接覆盖安装的话，并不能确保一定就能够兼容？建议你先去备份〔数据库〕配置文件，再进行安装〔3X-UI优化版〕。" class="headerlink" title="3、若你用的是之前F佬的x-ui或者其他分支版本，那直接覆盖安装的话，并不能确保一定就能够兼容？建议你先去备份〔数据库〕配置文件，再进行安装〔3X-UI优化版〕。"></a>3、若你用的是之前F佬的x-ui或者其他分支版本，那直接覆盖安装的话，并不能确保一定就能够兼容？建议你先去备份〔数据库〕配置文件，再进行安装〔3X-UI优化版〕。</h3><hr>
 <hr>
 <hr>
 <h2 id="✰以下为详细安装流程步骤✰"><a href="#✰以下为详细安装流程步骤✰" class="headerlink" title="✰以下为详细安装流程步骤✰"></a>✰以下为详细安装流程步骤✰</h2><h3 id="一、购买一台性能还不错的VPS，可通过本页底部链接购买，"><a href="#一、购买一台性能还不错的VPS，可通过本页底部链接购买，" class="headerlink" title="一、购买一台性能还不错的VPS，可通过本页底部链接购买，"></a>一、购买一台性能还不错的VPS，可通过本页底部链接购买，</h3><h4 id="PS：若你不想升级系统，则可以跳过此步骤。"><a href="#PS：若你不想升级系统，则可以跳过此步骤。" class="headerlink" title="PS：若你不想升级系统，则可以跳过此步骤。"></a>PS：若你不想升级系统，则可以跳过此步骤。</h4><h5 id="1、若你需要更新-升级系统，Debian系统可用如下命令："><a href="#1、若你需要更新-升级系统，Debian系统可用如下命令：" class="headerlink" title="1、若你需要更新/升级系统，Debian系统可用如下命令："></a>1、若你需要更新/升级系统，Debian系统可用如下命令：</h5><pre><code>apt update
@@ -175,7 +175,7 @@ apt autoremove -y
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://xeefei.github.io/xufei/2024/05/3x-ui/" data-id="clxekla4b0004dtoy87sr651n" data-title="3x-ui详细安装教程" class="article-share-link">分享</a>
+      <a data-url="https://xeefei.github.io/xufei/2024/05/3x-ui/" data-id="clxplollo0004ehox2lch2ywj" data-title="3x-ui详细安装教程" class="article-share-link">分享</a>
       
       
       
